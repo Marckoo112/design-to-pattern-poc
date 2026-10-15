@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Threadform — Pattern Studio</title>
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="/app.js"></script>
+  <script defer src="/pdf-export.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Threadform home"><span class="brand-mark">T</span><span>threadform <small>pattern studio</small></span></a>
+    <div class="build-note"><span class="status-dot"></span><span id="engine-status">Connecting to local drafting engine…</span></div>
+  </header>
+  <main class="workspace">
+    <aside class="control-panel">
+      <div class="panel-heading">
+        <p class="eyebrow">WORKSPACE / 01</p>
+        <h1>Draft a garment</h1>
+        <p class="subhead">Native Ourlette button-up drafting, running locally. Changes stay on this machine.</p>
+      </div>
+      <div class="selection-grid">
+        <label class="catalog-choice">Garment catalog<select id="garment-select" aria-label="Garment catalog"></select></label>
+        <label>Body chart<select id="body-select"></select></label>
+        <label>Base size<select id="size-select"></select></label>
+      </div>
+      <nav class="tabs" aria-label="Pattern settings">
+        <button class="tab is-active" type="button" data-tab="design">Design</button>
+        <button class="tab" type="button" data-tab="measurements">Measurements</button>
+        <button class="tab" type="button" data-tab="allowances">Seam setup</button>
+      </nav>
+      <form id="draft-form">
+        <section class="tab-page is-active" data-page="design">
+          <div id="option-groups"></div>
+        </section>
+        <section class="tab-page" data-page="measurements">
+          <div class="section-title"><h2>Body measurements</h2><span id="measurement-unit">cm</span></div>
+          <p class="helper">Values are passed directly to the captured engine. Choosing a base size fills its native measurement chart.</p>
+          <div id="measurement-fields" class="measurement-grid"></div>
+        </section>
+        <section class="tab-page" data-page="allowances">
+          <div class="section-title"><h2>Draft settings</h2></div>
+          <label class="field">Seam allowance <span class="unit-input"><input id="seam-input" type="number" min="0" max="5" step="0.1" value="1"><i>cm</i></span></label>
+          <label class="field">Hem allowance <span class="unit-input"><input id="hem-input" type="number" min="0" max="8" step="0.1" value="3"><i>cm</i></span></label>
+          <label class="field">Fabric construction<select id="fabric-select"><option value="woven">Woven</option><option value="knit">Knit</option></select></label>
+          <div class="notice"><b>Native settings only.</b> The engine’s own units and template options are passed through without translating them into the other project’s control model.</div>
+        </section>
+          <div class="form-footer"><button class="draft-button" type="submit" disabled><span>Draft pattern</span><span aria-hidden="true">↗</span></button><p id="draft-state">Loading captured catalog…</p></div>
+      </form>
+    </aside>
+
+    <section class="result-panel">
+      <div class="result-topline"><div><p class="eyebrow">GARMENT PREVIEW</p><h2 id="garment-title">Button-up shirt</h2></div><div class="result-actions"><label class="paper-choice">Print sheet<select id="paper-select"></select></label><div class="view-switch"><button type="button" class="view-button is-active" data-view="pattern">Pattern</button><button type="button" class="view-button" data-view="model">3D model</button></div><button type="button" id="pdf-button" class="export-button" disabled>Print / Save PDF</button></div></div>
+      <div id="empty-state" class="empty-state"><div class="empty-illustration"><span></span><span></span><span></span></div><h3>Your drafting canvas is ready</h3><p>Pick options and measurements, then draft to see the native pattern output.</p></div>
+      <div id="pattern-view" class="canvas-view pattern-view" aria-label="Pattern preview"><div id="native-pattern-view"></div></div>
+      <div id="model-view" class="canvas-view model-view" aria-label="Three-dimensional preview"><div id="model-stage"></div><div id="model-message" class="model-message">3D preview loads from the captured local renderer after the first draft.</div></div>
+      <div id="result-meta" class="result-meta" hidden></div>
+      <details id="output-inspector" class="output-inspector" hidden><summary>Inspect native output data</summary><pre id="output-json"></pre></details>
+    </section>
+  </main>
+  <dialog id="print-dialog" class="print-dialog" aria-label="Print-ready pattern sheets"><div class="print-dialog-head"><div><p class="eyebrow">LOCAL EXPORT</p><h2>Print-ready sheets</h2></div><button type="button" id="close-print" class="close-print">Close</button></div><iframe id="print-frame" title="Print-ready pattern sheets"></iframe></dialog>
+  <footer class="footer-note"><span>LOCAL CAPTURE · BUILD 09b408d4</span><span>Preview and automated drafting only — not fitting or production certification.</span></footer>
+</body>
+</html>
