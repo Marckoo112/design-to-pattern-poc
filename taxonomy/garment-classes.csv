@@ -1,0 +1,37 @@
+garment_id,name,category,fabrics,uses_body
+shift-dress,Shift dress,dresses,woven,true
+fit-and-flare-dress,Fit and flare dress,dresses,woven,true
+slip-dress,Slip dress,dresses,woven,true
+dress,Dress (build your own),dresses,woven|knit,true
+shirt-dress,Shirt dress,dresses,woven,true
+a-line-skirt,A-line skirt,skirts,woven,true
+circle-skirt,Circle skirt,skirts,woven|knit,true
+gathered-skirt,Gathered skirt,skirts,woven,true
+pencil-skirt,Pencil skirt,skirts,woven|knit,true
+wrap-skirt,Wrap skirt,skirts,woven,true
+skirt,Skirt (build your own),skirts,woven|knit,true
+t-shirt,T-shirt,tops,knit,true
+woven-top,Woven top / blouse,tops,woven,true
+sweatshirt,Sweatshirt / hoodie,tops,knit,true
+top,"Top, shirt or jacket (build your own)",tops,woven|knit,true
+button-up-shirt,Button-up shirt,tops,woven,true
+camp-shirt,Camp shirt,tops,woven,true
+pull-on-trousers,Pull-on trousers,trousers,woven|knit,true
+pull-on-shorts,Pull-on shorts,trousers,woven|knit,true
+trousers,Trousers or shorts (build your own),trousers,woven|knit,true
+jeans,Jeans,trousers,woven,true
+chinos,Chinos,trousers,woven,true
+kimono-jacket,Kimono jacket,outerwear,woven,true
+tote-bag,Tote bag,accessories,woven,false
+drawstring-bag,Drawstring bag,accessories,woven,false
+zip-pouch,Zip pouch,accessories,woven,false
+bucket-hat,Bucket hat,accessories,woven,true
+scrunchie,Scrunchie,accessories,woven|knit,false
+headband,Headband,accessories,woven|knit,true
+pillow-cover,Cushion cover,home,woven,false
+apron,Apron,home,woven,true
+trucker-jacket,Trucker jacket,outerwear,woven,true
+trucker-vest,Denim vest,outerwear,woven,true
+chore-jacket,Chore jacket,outerwear,woven,true
+bomber-jacket,Bomber jacket,outerwear,woven,true
+waistcoat,Waistcoat,outerwear,woven,true

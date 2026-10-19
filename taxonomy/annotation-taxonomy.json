@@ -1,0 +1,8591 @@
+{
+  "meta": {
+    "build": "09b408d4c34bf907fb334f7b09c9a4695e5ad89f60eb79436f116e0e5f7b7d69",
+    "engine": "Ourlette captured browser drafting engine",
+    "source": "runner.cjs capabilities",
+    "note": "Body measurements, draft settings, and paper sizes are excluded by design; this file is the annotation target set only."
+  },
+  "categories": [
+    "dresses",
+    "skirts",
+    "tops",
+    "trousers",
+    "outerwear",
+    "accessories",
+    "home"
+  ],
+  "fabricKinds": [
+    "woven",
+    "knit"
+  ],
+  "garments": [
+    {
+      "id": "shift-dress",
+      "name": "Shift dress",
+      "category": "dresses",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "fit-and-flare-dress",
+      "name": "Fit and flare dress",
+      "category": "dresses",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "slip-dress",
+      "name": "Slip dress",
+      "category": "dresses",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "dress",
+      "name": "Dress (build your own)",
+      "category": "dresses",
+      "fabrics": [
+        "woven",
+        "knit"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "shirt-dress",
+      "name": "Shirt dress",
+      "category": "dresses",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "a-line-skirt",
+      "name": "A-line skirt",
+      "category": "skirts",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "circle-skirt",
+      "name": "Circle skirt",
+      "category": "skirts",
+      "fabrics": [
+        "woven",
+        "knit"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "gathered-skirt",
+      "name": "Gathered skirt",
+      "category": "skirts",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "pencil-skirt",
+      "name": "Pencil skirt",
+      "category": "skirts",
+      "fabrics": [
+        "woven",
+        "knit"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "wrap-skirt",
+      "name": "Wrap skirt",
+      "category": "skirts",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "skirt",
+      "name": "Skirt (build your own)",
+      "category": "skirts",
+      "fabrics": [
+        "woven",
+        "knit"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "t-shirt",
+      "name": "T-shirt",
+      "category": "tops",
+      "fabrics": [
+        "knit"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "woven-top",
+      "name": "Woven top / blouse",
+      "category": "tops",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "sweatshirt",
+      "name": "Sweatshirt / hoodie",
+      "category": "tops",
+      "fabrics": [
+        "knit"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "top",
+      "name": "Top, shirt or jacket (build your own)",
+      "category": "tops",
+      "fabrics": [
+        "woven",
+        "knit"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "button-up-shirt",
+      "name": "Button-up shirt",
+      "category": "tops",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "camp-shirt",
+      "name": "Camp shirt",
+      "category": "tops",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "pull-on-trousers",
+      "name": "Pull-on trousers",
+      "category": "trousers",
+      "fabrics": [
+        "woven",
+        "knit"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "pull-on-shorts",
+      "name": "Pull-on shorts",
+      "category": "trousers",
+      "fabrics": [
+        "woven",
+        "knit"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "trousers",
+      "name": "Trousers or shorts (build your own)",
+      "category": "trousers",
+      "fabrics": [
+        "woven",
+        "knit"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "jeans",
+      "name": "Jeans",
+      "category": "trousers",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "chinos",
+      "name": "Chinos",
+      "category": "trousers",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "kimono-jacket",
+      "name": "Kimono jacket",
+      "category": "outerwear",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "tote-bag",
+      "name": "Tote bag",
+      "category": "accessories",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": false
+    },
+    {
+      "id": "drawstring-bag",
+      "name": "Drawstring bag",
+      "category": "accessories",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": false
+    },
+    {
+      "id": "zip-pouch",
+      "name": "Zip pouch",
+      "category": "accessories",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": false
+    },
+    {
+      "id": "bucket-hat",
+      "name": "Bucket hat",
+      "category": "accessories",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "scrunchie",
+      "name": "Scrunchie",
+      "category": "accessories",
+      "fabrics": [
+        "woven",
+        "knit"
+      ],
+      "usesBody": false
+    },
+    {
+      "id": "headband",
+      "name": "Headband",
+      "category": "accessories",
+      "fabrics": [
+        "woven",
+        "knit"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "pillow-cover",
+      "name": "Cushion cover",
+      "category": "home",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": false
+    },
+    {
+      "id": "apron",
+      "name": "Apron",
+      "category": "home",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "trucker-jacket",
+      "name": "Trucker jacket",
+      "category": "outerwear",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "trucker-vest",
+      "name": "Denim vest",
+      "category": "outerwear",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "chore-jacket",
+      "name": "Chore jacket",
+      "category": "outerwear",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "bomber-jacket",
+      "name": "Bomber jacket",
+      "category": "outerwear",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    },
+    {
+      "id": "waistcoat",
+      "name": "Waistcoat",
+      "category": "outerwear",
+      "fabrics": [
+        "woven"
+      ],
+      "usesBody": true
+    }
+  ],
+  "optionRegistry": {
+    "backPleat": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "box",
+        "inverted",
+        "none",
+        "side"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "backPockets": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "flap",
+        "none",
+        "patch",
+        "welt"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 3,
+      "categories": [
+        "trousers"
+      ]
+    },
+    "backYoke": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "curved",
+        "none",
+        "pointed",
+        "straight"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "bandWidth": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "min": 3,
+      "max": 10,
+      "fromPhoto": "no",
+      "garmentCount": 1,
+      "categories": [
+        "outerwear"
+      ]
+    },
+    "belt": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "fromPhoto": "yes",
+      "garmentCount": 1,
+      "categories": [
+        "outerwear"
+      ]
+    },
+    "beltLoops": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "fromPhoto": "yes",
+      "garmentCount": 4,
+      "categories": [
+        "skirts",
+        "trousers"
+      ]
+    },
+    "brim": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "size",
+      "groups": [
+        "size"
+      ],
+      "min": 4,
+      "max": 10,
+      "fromPhoto": "no",
+      "garmentCount": 1,
+      "categories": [
+        "accessories"
+      ]
+    },
+    "buttons": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "min": 0,
+      "max": 14,
+      "fromPhoto": "semi",
+      "garmentCount": 11,
+      "categories": [
+        "dresses",
+        "skirts",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "buttonSize": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "min": 0,
+      "max": 3,
+      "fromPhoto": "no",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "chestPockets": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "both",
+        "left",
+        "none"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "chestPocketStyle": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "flap",
+        "patch",
+        "patch-flap",
+        "welt"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "closure": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "back-zip",
+        "button-fly",
+        "buttons",
+        "envelope",
+        "fly",
+        "front-buttons",
+        "keyhole",
+        "none",
+        "pull-on",
+        "side-zip",
+        "wrap",
+        "zip"
+      ],
+      "choicesVaryByGarment": true,
+      "fromPhoto": "yes",
+      "garmentCount": 7,
+      "categories": [
+        "dresses",
+        "skirts",
+        "tops",
+        "trousers",
+        "home"
+      ]
+    },
+    "coinPocket": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "fromPhoto": "yes",
+      "garmentCount": 3,
+      "categories": [
+        "trousers"
+      ]
+    },
+    "collar": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "band",
+        "camp",
+        "hood",
+        "none",
+        "peter-pan",
+        "point",
+        "rib",
+        "shirt",
+        "tie"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "collarPoints": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "button-down",
+        "classic",
+        "long",
+        "rounded",
+        "spread"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "collarSize": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "min": 70,
+      "max": 150,
+      "fromPhoto": "no",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "cords": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "one",
+        "two"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 1,
+      "categories": [
+        "accessories"
+      ]
+    },
+    "cuff": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "band",
+        "elastic",
+        "none",
+        "rib",
+        "shirt"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "cuffHeight": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "min": 0,
+      "max": 15,
+      "fromPhoto": "no",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "curvedHem": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "fromPhoto": "yes",
+      "garmentCount": 1,
+      "categories": [
+        "tops"
+      ]
+    },
+    "darts": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "fit",
+      "groups": [
+        "fit"
+      ],
+      "choices": [
+        "auto",
+        "bust",
+        "bust-waist",
+        "none"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "no",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "depth": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "size",
+      "groups": [
+        "size"
+      ],
+      "min": 0,
+      "max": 20,
+      "fromPhoto": "no",
+      "garmentCount": 3,
+      "categories": [
+        "accessories"
+      ]
+    },
+    "droop": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "min": 10,
+      "max": 60,
+      "fromPhoto": "no",
+      "garmentCount": 1,
+      "categories": [
+        "accessories"
+      ]
+    },
+    "ease": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "fit",
+      "groups": [
+        "fit"
+      ],
+      "min": -6,
+      "max": 30,
+      "fromPhoto": "no",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "elasticWidth": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "min": 1,
+      "max": 5,
+      "fromPhoto": "no",
+      "garmentCount": 9,
+      "categories": [
+        "skirts",
+        "trousers"
+      ]
+    },
+    "epaulettes": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "fit": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "fit",
+      "groups": [
+        "fit"
+      ],
+      "choices": [
+        "fitted",
+        "oversized",
+        "regular",
+        "relaxed"
+      ],
+      "choicesVaryByGarment": true,
+      "fromPhoto": "yes",
+      "garmentCount": 19,
+      "categories": [
+        "dresses",
+        "tops",
+        "trousers",
+        "outerwear"
+      ]
+    },
+    "flare": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "min": 0,
+      "max": 30,
+      "fromPhoto": "semi",
+      "garmentCount": 15,
+      "categories": [
+        "dresses",
+        "skirts",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "fraction": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "full",
+        "half",
+        "quarter",
+        "three-quarter"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 1,
+      "categories": [
+        "skirts"
+      ]
+    },
+    "frontPockets": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "in-seam",
+        "jeans",
+        "none",
+        "patch",
+        "slant"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 3,
+      "categories": [
+        "trousers"
+      ]
+    },
+    "frontYoke": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "curved",
+        "none",
+        "pointed",
+        "straight"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "frontYokeDepth": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "min": 25,
+      "max": 85,
+      "fromPhoto": "no",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "fullness": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "min": 1.3,
+      "max": 3.5,
+      "fromPhoto": "semi",
+      "garmentCount": 5,
+      "categories": [
+        "dresses",
+        "skirts"
+      ]
+    },
+    "gores": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 3,
+      "categories": [
+        "dresses",
+        "skirts"
+      ]
+    },
+    "handle": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "size",
+      "groups": [
+        "size"
+      ],
+      "min": 25,
+      "max": 120,
+      "fromPhoto": "no",
+      "garmentCount": 1,
+      "categories": [
+        "accessories"
+      ]
+    },
+    "height": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "size",
+      "groups": [
+        "size"
+      ],
+      "min": 8,
+      "max": 80,
+      "fromPhoto": "no",
+      "garmentCount": 4,
+      "categories": [
+        "accessories",
+        "home"
+      ]
+    },
+    "hem": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "band",
+        "peplum",
+        "points",
+        "rib",
+        "ruffle",
+        "shirttail",
+        "straight"
+      ],
+      "choicesVaryByGarment": true,
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "hemBandHeight": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "min": 0,
+      "max": 40,
+      "fromPhoto": "no",
+      "garmentCount": 8,
+      "categories": [
+        "tops",
+        "outerwear"
+      ]
+    },
+    "hipEase": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "fit",
+      "groups": [
+        "fit"
+      ],
+      "min": -4,
+      "max": 20,
+      "fromPhoto": "no",
+      "garmentCount": 3,
+      "categories": [
+        "trousers"
+      ]
+    },
+    "hipYoke": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "fromPhoto": "yes",
+      "garmentCount": 1,
+      "categories": [
+        "skirts"
+      ]
+    },
+    "layer": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "fit",
+      "groups": [
+        "fit"
+      ],
+      "choices": [
+        "coat",
+        "jacket",
+        "top"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 8,
+      "categories": [
+        "tops",
+        "outerwear"
+      ]
+    },
+    "leg": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "barrel",
+        "bootcut",
+        "flare",
+        "jogger",
+        "skinny",
+        "slim",
+        "straight",
+        "tapered",
+        "wide"
+      ],
+      "choicesVaryByGarment": true,
+      "fromPhoto": "yes",
+      "garmentCount": 4,
+      "categories": [
+        "trousers"
+      ]
+    },
+    "legHem": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "elastic",
+        "plain",
+        "rib",
+        "split",
+        "turn-up"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 3,
+      "categories": [
+        "trousers"
+      ]
+    },
+    "length": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "length",
+      "groups": [
+        "length"
+      ],
+      "choices": [
+        "above-knee",
+        "ankle",
+        "bermuda",
+        "calf",
+        "capri",
+        "crop",
+        "cropped",
+        "full",
+        "half",
+        "high-hip",
+        "hip",
+        "knee",
+        "long",
+        "low-hip",
+        "maxi",
+        "mid",
+        "midi",
+        "mini",
+        "short",
+        "thigh",
+        "tunic",
+        "waist"
+      ],
+      "choicesVaryByGarment": true,
+      "fromPhoto": "yes",
+      "garmentCount": 29,
+      "categories": [
+        "dresses",
+        "skirts",
+        "tops",
+        "trousers",
+        "outerwear",
+        "home"
+      ]
+    },
+    "lengthAdjust": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "length",
+      "groups": [
+        "length"
+      ],
+      "min": -25,
+      "max": 25,
+      "fromPhoto": "no",
+      "garmentCount": 27,
+      "categories": [
+        "dresses",
+        "skirts",
+        "tops",
+        "trousers",
+        "outerwear"
+      ]
+    },
+    "lining": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "fromPhoto": "no",
+      "garmentCount": 12,
+      "categories": [
+        "dresses",
+        "tops",
+        "accessories",
+        "outerwear"
+      ]
+    },
+    "lowerPockets": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "flap",
+        "in-seam",
+        "kangaroo",
+        "none",
+        "patch",
+        "patch-flap",
+        "slant-welt",
+        "welt"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 8,
+      "categories": [
+        "tops",
+        "outerwear"
+      ]
+    },
+    "neck": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "cowl",
+        "crew",
+        "hood",
+        "straight",
+        "v"
+      ],
+      "choicesVaryByGarment": true,
+      "fromPhoto": "yes",
+      "garmentCount": 2,
+      "categories": [
+        "dresses",
+        "tops"
+      ]
+    },
+    "neckDepth": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "min": -4,
+      "max": 20,
+      "fromPhoto": "semi",
+      "garmentCount": 14,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "neckline": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "boat",
+        "crew",
+        "high",
+        "scoop",
+        "square",
+        "sweetheart",
+        "v-neck"
+      ],
+      "choicesVaryByGarment": true,
+      "fromPhoto": "yes",
+      "garmentCount": 14,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "neckWidth": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "min": -2,
+      "max": 8,
+      "fromPhoto": "no",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "opening": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "back-zip",
+        "buttons",
+        "half",
+        "keyhole",
+        "none",
+        "snaps",
+        "wrap",
+        "zip"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "overlap": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "min": 50,
+      "max": 100,
+      "fromPhoto": "no",
+      "garmentCount": 1,
+      "categories": [
+        "skirts"
+      ]
+    },
+    "panels": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "jacket",
+        "none",
+        "princess",
+        "side-panels"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "placket": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "box",
+        "facing",
+        "hidden",
+        "plain"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "pleats": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "double",
+        "none",
+        "single"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 3,
+      "categories": [
+        "trousers"
+      ]
+    },
+    "pleatStitch": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "hip",
+        "waist"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "no",
+      "garmentCount": 3,
+      "categories": [
+        "dresses",
+        "skirts"
+      ]
+    },
+    "pleatStyle": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "box",
+        "inverted",
+        "knife"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 3,
+      "categories": [
+        "dresses",
+        "skirts"
+      ]
+    },
+    "pocket": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "fromPhoto": "yes",
+      "garmentCount": 3,
+      "categories": [
+        "tops",
+        "accessories",
+        "home"
+      ]
+    },
+    "pockets": {
+      "type": "boolean",
+      "types": [
+        "boolean",
+        "enum"
+      ],
+      "polymorphic": true,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "in-seam",
+        "none",
+        "patch"
+      ],
+      "choicesVaryByGarment": true,
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "skirts",
+        "trousers",
+        "outerwear"
+      ]
+    },
+    "pocketShape": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "angled",
+        "pointed",
+        "rounded",
+        "square"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "pocketSize": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "min": 60,
+      "max": 150,
+      "fromPhoto": "no",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "reversible": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "fromPhoto": "no",
+      "garmentCount": 1,
+      "categories": [
+        "accessories"
+      ]
+    },
+    "rise": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "fit",
+      "groups": [
+        "fit"
+      ],
+      "choices": [
+        "extra-high",
+        "high",
+        "low",
+        "mid"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 4,
+      "categories": [
+        "skirts",
+        "trousers"
+      ]
+    },
+    "ruffle": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "fromPhoto": "yes",
+      "garmentCount": 4,
+      "categories": [
+        "dresses",
+        "skirts"
+      ]
+    },
+    "shape": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "a-line",
+        "circle",
+        "gathered",
+        "half-circle",
+        "pencil",
+        "pleated",
+        "straight",
+        "tiered",
+        "trumpet"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 3,
+      "categories": [
+        "dresses",
+        "skirts"
+      ]
+    },
+    "sideHeight": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "size",
+      "groups": [
+        "size"
+      ],
+      "min": 5,
+      "max": 11,
+      "fromPhoto": "no",
+      "garmentCount": 1,
+      "categories": [
+        "accessories"
+      ]
+    },
+    "sidePockets": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "fromPhoto": "yes",
+      "garmentCount": 3,
+      "categories": [
+        "trousers"
+      ]
+    },
+    "sideSlits": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "min": 0,
+      "max": 25,
+      "fromPhoto": "semi",
+      "garmentCount": 8,
+      "categories": [
+        "tops",
+        "outerwear"
+      ]
+    },
+    "size": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "size",
+      "groups": [
+        "size"
+      ],
+      "choices": [
+        "classic",
+        "oversized",
+        "skinny"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 1,
+      "categories": [
+        "accessories"
+      ]
+    },
+    "skirt": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "a-line",
+        "circle",
+        "gathered"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 1,
+      "categories": [
+        "dresses"
+      ]
+    },
+    "sleeveAdjust": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "length",
+      "groups": [
+        "length"
+      ],
+      "min": -15,
+      "max": 15,
+      "fromPhoto": "no",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "sleevePieces": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "one",
+        "two"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "sleeves": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "cap",
+        "elbow",
+        "long",
+        "none",
+        "short",
+        "sleeveless",
+        "straps",
+        "three-quarter"
+      ],
+      "choicesVaryByGarment": true,
+      "fromPhoto": "yes",
+      "garmentCount": 15,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "sleeveShape": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "bell",
+        "bishop",
+        "fitted",
+        "puff",
+        "straight"
+      ],
+      "choicesVaryByGarment": true,
+      "fromPhoto": "yes",
+      "garmentCount": 13,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "sleeveStyle": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "dropped",
+        "kimono",
+        "raglan",
+        "set-in"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "sleeveTabs": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "fromPhoto": "yes",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "slit": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "back",
+        "back-vent",
+        "front",
+        "none",
+        "side"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 3,
+      "categories": [
+        "dresses",
+        "skirts"
+      ]
+    },
+    "slitLength": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "min": 5,
+      "max": 50,
+      "fromPhoto": "no",
+      "garmentCount": 3,
+      "categories": [
+        "dresses",
+        "skirts"
+      ]
+    },
+    "snap": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "fromPhoto": "yes",
+      "garmentCount": 1,
+      "categories": [
+        "accessories"
+      ]
+    },
+    "stretch": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "fit",
+      "groups": [
+        "fit"
+      ],
+      "fromPhoto": "no",
+      "garmentCount": 3,
+      "categories": [
+        "trousers"
+      ]
+    },
+    "style": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "elastic",
+        "knotted"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 1,
+      "categories": [
+        "accessories"
+      ]
+    },
+    "tabs": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "fromPhoto": "yes",
+      "garmentCount": 8,
+      "categories": [
+        "tops",
+        "outerwear"
+      ]
+    },
+    "taper": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "min": 0,
+      "max": 4,
+      "fromPhoto": "no",
+      "garmentCount": 1,
+      "categories": [
+        "skirts"
+      ]
+    },
+    "tieBelt": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "fromPhoto": "yes",
+      "garmentCount": 12,
+      "categories": [
+        "dresses",
+        "skirts",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "tiers": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "min": 1,
+      "max": 4,
+      "fromPhoto": "semi",
+      "garmentCount": 4,
+      "categories": [
+        "dresses",
+        "skirts"
+      ]
+    },
+    "topstitch": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "auto",
+        "contrast",
+        "matching",
+        "none"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "no",
+      "garmentCount": 13,
+      "categories": [
+        "dresses",
+        "tops",
+        "trousers",
+        "outerwear"
+      ]
+    },
+    "vent": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "fromPhoto": "yes",
+      "garmentCount": 1,
+      "categories": [
+        "skirts"
+      ]
+    },
+    "waist": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "elastic",
+        "waistband"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 3,
+      "categories": [
+        "skirts"
+      ]
+    },
+    "waistband": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "contoured",
+        "drawstring",
+        "elastic",
+        "facing",
+        "straight"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 4,
+      "categories": [
+        "skirts",
+        "trousers"
+      ]
+    },
+    "waistbandHeight": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "min": 0,
+      "max": 10,
+      "fromPhoto": "no",
+      "garmentCount": 3,
+      "categories": [
+        "trousers"
+      ]
+    },
+    "waistFinish": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "facing",
+        "waistband"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 1,
+      "categories": [
+        "skirts"
+      ]
+    },
+    "waistSeam": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "choices": [
+        "drop",
+        "empire",
+        "natural",
+        "none"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 2,
+      "categories": [
+        "dresses"
+      ]
+    },
+    "width": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "size",
+      "groups": [
+        "size"
+      ],
+      "min": 4,
+      "max": 80,
+      "fromPhoto": "no",
+      "garmentCount": 5,
+      "categories": [
+        "accessories",
+        "home"
+      ]
+    },
+    "yoke": {
+      "type": "boolean",
+      "types": [
+        "boolean"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "fromPhoto": "yes",
+      "garmentCount": 3,
+      "categories": [
+        "trousers"
+      ]
+    },
+    "yokeDepth": {
+      "type": "number",
+      "types": [
+        "number"
+      ],
+      "polymorphic": false,
+      "group": "style",
+      "groups": [
+        "style"
+      ],
+      "min": 20,
+      "max": 75,
+      "fromPhoto": "no",
+      "garmentCount": 10,
+      "categories": [
+        "dresses",
+        "tops",
+        "outerwear"
+      ]
+    },
+    "zip": {
+      "type": "enum",
+      "types": [
+        "enum"
+      ],
+      "polymorphic": false,
+      "group": "details",
+      "groups": [
+        "details"
+      ],
+      "choices": [
+        "back",
+        "side"
+      ],
+      "choicesVaryByGarment": false,
+      "fromPhoto": "yes",
+      "garmentCount": 3,
+      "categories": [
+        "skirts"
+      ]
+    }
+  },
+  "slotsByGarment": {
+    "shift-dress": [
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "mini",
+          "above-knee",
+          "knee",
+          "midi",
+          "maxi"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "flare",
+        "type": "number",
+        "min": 0,
+        "max": 20,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "neckline",
+        "type": "enum",
+        "choices": [
+          "crew",
+          "scoop",
+          "v-neck",
+          "boat",
+          "square"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "neckDepth",
+        "type": "number",
+        "min": -4,
+        "max": 10,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "sleeves",
+        "type": "enum",
+        "choices": [
+          "sleeveless",
+          "cap",
+          "short",
+          "elbow",
+          "three-quarter",
+          "long"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveShape",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "straight",
+          "puff",
+          "bell"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "closure",
+        "type": "enum",
+        "choices": [
+          "back-zip",
+          "keyhole",
+          "none"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "in-seam"
+        ],
+        "fromPhoto": "yes"
+      }
+    ],
+    "fit-and-flare-dress": [
+      {
+        "key": "skirt",
+        "type": "enum",
+        "choices": [
+          "a-line",
+          "gathered",
+          "circle"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "mini",
+          "above-knee",
+          "knee",
+          "midi",
+          "maxi"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "neckline",
+        "type": "enum",
+        "choices": [
+          "crew",
+          "scoop",
+          "v-neck",
+          "boat",
+          "square"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "neckDepth",
+        "type": "number",
+        "min": -4,
+        "max": 10,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "sleeves",
+        "type": "enum",
+        "choices": [
+          "sleeveless",
+          "straps",
+          "cap",
+          "short",
+          "elbow",
+          "three-quarter",
+          "long"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveShape",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "straight",
+          "puff",
+          "bell"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "fullness",
+        "type": "number",
+        "min": 1.3,
+        "max": 2.8,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "pockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "in-seam"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "tieBelt",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      }
+    ],
+    "slip-dress": [
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "mini",
+          "above-knee",
+          "knee",
+          "midi",
+          "maxi"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "neck",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "v",
+          "cowl"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "flare",
+        "type": "number",
+        "min": 0,
+        "max": 18,
+        "fromPhoto": "semi"
+      }
+    ],
+    "dress": [
+      {
+        "key": "waistSeam",
+        "type": "enum",
+        "choices": [
+          "none",
+          "natural",
+          "empire",
+          "drop"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "ease",
+        "type": "number",
+        "min": -6,
+        "max": 30,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "panels",
+        "type": "enum",
+        "choices": [
+          "none",
+          "princess",
+          "side-panels",
+          "jacket"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "darts",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "none",
+          "bust",
+          "bust-waist"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "collar",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "camp",
+          "point",
+          "peter-pan",
+          "hood",
+          "rib",
+          "tie"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarPoints",
+        "type": "enum",
+        "choices": [
+          "classic",
+          "spread",
+          "long",
+          "rounded",
+          "button-down"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarSize",
+        "type": "number",
+        "min": 70,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "neckline",
+        "type": "enum",
+        "choices": [
+          "crew",
+          "high",
+          "scoop",
+          "v-neck",
+          "boat",
+          "square",
+          "sweetheart"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "neckDepth",
+        "type": "number",
+        "min": -4,
+        "max": 20,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "neckWidth",
+        "type": "number",
+        "min": -2,
+        "max": 8,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "opening",
+        "type": "enum",
+        "choices": [
+          "none",
+          "buttons",
+          "snaps",
+          "zip",
+          "half",
+          "wrap",
+          "back-zip",
+          "keyhole"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "placket",
+        "type": "enum",
+        "choices": [
+          "box",
+          "plain",
+          "hidden",
+          "facing"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "buttons",
+        "type": "number",
+        "min": 0,
+        "max": 14,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "buttonSize",
+        "type": "number",
+        "min": 0,
+        "max": 3,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "frontYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "frontYokeDepth",
+        "type": "number",
+        "min": 25,
+        "max": 85,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "yokeDepth",
+        "type": "number",
+        "min": 20,
+        "max": 75,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backPleat",
+        "type": "enum",
+        "choices": [
+          "none",
+          "box",
+          "inverted",
+          "side"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeves",
+        "type": "enum",
+        "choices": [
+          "none",
+          "cap",
+          "short",
+          "elbow",
+          "three-quarter",
+          "long"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveStyle",
+        "type": "enum",
+        "choices": [
+          "set-in",
+          "dropped",
+          "raglan",
+          "kimono"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveShape",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "straight",
+          "puff",
+          "bell",
+          "bishop"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleevePieces",
+        "type": "enum",
+        "choices": [
+          "one",
+          "two"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveAdjust",
+        "type": "number",
+        "min": -15,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "cuff",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "rib",
+          "elastic"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "cuffHeight",
+        "type": "number",
+        "min": 0,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "chestPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "left",
+          "both"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "chestPocketStyle",
+        "type": "enum",
+        "choices": [
+          "patch",
+          "patch-flap",
+          "flap",
+          "welt"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketShape",
+        "type": "enum",
+        "choices": [
+          "square",
+          "rounded",
+          "pointed",
+          "angled"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketSize",
+        "type": "number",
+        "min": 60,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "lining",
+        "type": "boolean",
+        "fromPhoto": "no"
+      },
+      {
+        "key": "topstitch",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "contrast",
+          "matching",
+          "none"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tieBelt",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "epaulettes",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveTabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "shape",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "pencil",
+          "a-line",
+          "trumpet",
+          "half-circle",
+          "circle",
+          "gathered",
+          "tiered",
+          "pleated"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "flare",
+        "type": "number",
+        "min": 0,
+        "max": 30,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "fullness",
+        "type": "number",
+        "min": 1.3,
+        "max": 3.5,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "tiers",
+        "type": "number",
+        "min": 2,
+        "max": 4,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "pleatStyle",
+        "type": "enum",
+        "choices": [
+          "knife",
+          "box",
+          "inverted"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pleatStitch",
+        "type": "enum",
+        "choices": [
+          "hip",
+          "waist"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "gores",
+        "type": "enum",
+        "choices": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "mini",
+          "above-knee",
+          "knee",
+          "midi",
+          "maxi"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "slit",
+        "type": "enum",
+        "choices": [
+          "none",
+          "back-vent",
+          "back",
+          "front",
+          "side"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "slitLength",
+        "type": "number",
+        "min": 5,
+        "max": 50,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "pockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "in-seam",
+          "patch"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "ruffle",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "hem",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "shirttail"
+        ],
+        "fromPhoto": "yes"
+      }
+    ],
+    "shirt-dress": [
+      {
+        "key": "waistSeam",
+        "type": "enum",
+        "choices": [
+          "none",
+          "natural",
+          "empire",
+          "drop"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "ease",
+        "type": "number",
+        "min": -6,
+        "max": 30,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "panels",
+        "type": "enum",
+        "choices": [
+          "none",
+          "princess",
+          "side-panels",
+          "jacket"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "darts",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "none",
+          "bust",
+          "bust-waist"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "collar",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "camp",
+          "point",
+          "peter-pan",
+          "hood",
+          "rib",
+          "tie"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarPoints",
+        "type": "enum",
+        "choices": [
+          "classic",
+          "spread",
+          "long",
+          "rounded",
+          "button-down"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarSize",
+        "type": "number",
+        "min": 70,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "neckline",
+        "type": "enum",
+        "choices": [
+          "crew",
+          "high",
+          "scoop",
+          "v-neck",
+          "boat",
+          "square",
+          "sweetheart"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "neckDepth",
+        "type": "number",
+        "min": -4,
+        "max": 20,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "neckWidth",
+        "type": "number",
+        "min": -2,
+        "max": 8,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "opening",
+        "type": "enum",
+        "choices": [
+          "none",
+          "buttons",
+          "snaps",
+          "zip",
+          "half",
+          "wrap",
+          "back-zip",
+          "keyhole"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "placket",
+        "type": "enum",
+        "choices": [
+          "box",
+          "plain",
+          "hidden",
+          "facing"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "buttons",
+        "type": "number",
+        "min": 0,
+        "max": 14,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "buttonSize",
+        "type": "number",
+        "min": 0,
+        "max": 3,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "frontYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "frontYokeDepth",
+        "type": "number",
+        "min": 25,
+        "max": 85,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "yokeDepth",
+        "type": "number",
+        "min": 20,
+        "max": 75,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backPleat",
+        "type": "enum",
+        "choices": [
+          "none",
+          "box",
+          "inverted",
+          "side"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeves",
+        "type": "enum",
+        "choices": [
+          "none",
+          "cap",
+          "short",
+          "elbow",
+          "three-quarter",
+          "long"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveStyle",
+        "type": "enum",
+        "choices": [
+          "set-in",
+          "dropped",
+          "raglan",
+          "kimono"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveShape",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "straight",
+          "puff",
+          "bell",
+          "bishop"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleevePieces",
+        "type": "enum",
+        "choices": [
+          "one",
+          "two"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveAdjust",
+        "type": "number",
+        "min": -15,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "cuff",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "rib",
+          "elastic"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "cuffHeight",
+        "type": "number",
+        "min": 0,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "chestPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "left",
+          "both"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "chestPocketStyle",
+        "type": "enum",
+        "choices": [
+          "patch",
+          "patch-flap",
+          "flap",
+          "welt"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketShape",
+        "type": "enum",
+        "choices": [
+          "square",
+          "rounded",
+          "pointed",
+          "angled"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketSize",
+        "type": "number",
+        "min": 60,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "lining",
+        "type": "boolean",
+        "fromPhoto": "no"
+      },
+      {
+        "key": "topstitch",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "contrast",
+          "matching",
+          "none"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tieBelt",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "epaulettes",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveTabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "shape",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "pencil",
+          "a-line",
+          "trumpet",
+          "half-circle",
+          "circle",
+          "gathered",
+          "tiered",
+          "pleated"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "flare",
+        "type": "number",
+        "min": 0,
+        "max": 30,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "fullness",
+        "type": "number",
+        "min": 1.3,
+        "max": 3.5,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "tiers",
+        "type": "number",
+        "min": 2,
+        "max": 4,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "pleatStyle",
+        "type": "enum",
+        "choices": [
+          "knife",
+          "box",
+          "inverted"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pleatStitch",
+        "type": "enum",
+        "choices": [
+          "hip",
+          "waist"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "gores",
+        "type": "enum",
+        "choices": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "mini",
+          "above-knee",
+          "knee",
+          "midi",
+          "maxi"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "slit",
+        "type": "enum",
+        "choices": [
+          "none",
+          "back-vent",
+          "back",
+          "front",
+          "side"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "slitLength",
+        "type": "number",
+        "min": 5,
+        "max": 50,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "pockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "in-seam",
+          "patch"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "ruffle",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "hem",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "shirttail"
+        ],
+        "fromPhoto": "yes"
+      }
+    ],
+    "a-line-skirt": [
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "mini",
+          "above-knee",
+          "knee",
+          "midi",
+          "maxi"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "flare",
+        "type": "number",
+        "min": 2,
+        "max": 25,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "waist",
+        "type": "enum",
+        "choices": [
+          "waistband",
+          "elastic"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "zip",
+        "type": "enum",
+        "choices": [
+          "side",
+          "back"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "elasticWidth",
+        "type": "number",
+        "min": 1,
+        "max": 5,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "pockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "in-seam",
+          "patch"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "ruffle",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      }
+    ],
+    "circle-skirt": [
+      {
+        "key": "fraction",
+        "type": "enum",
+        "choices": [
+          "full",
+          "three-quarter",
+          "half",
+          "quarter"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "mini",
+          "above-knee",
+          "knee",
+          "midi",
+          "maxi"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "waist",
+        "type": "enum",
+        "choices": [
+          "waistband",
+          "elastic"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "zip",
+        "type": "enum",
+        "choices": [
+          "side",
+          "back"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "elasticWidth",
+        "type": "number",
+        "min": 1,
+        "max": 5,
+        "fromPhoto": "no"
+      }
+    ],
+    "gathered-skirt": [
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "mini",
+          "above-knee",
+          "knee",
+          "midi",
+          "maxi"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "fullness",
+        "type": "number",
+        "min": 1.3,
+        "max": 3,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "tiers",
+        "type": "number",
+        "min": 1,
+        "max": 3,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "waist",
+        "type": "enum",
+        "choices": [
+          "waistband",
+          "elastic"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "zip",
+        "type": "enum",
+        "choices": [
+          "side",
+          "back"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "elasticWidth",
+        "type": "number",
+        "min": 1,
+        "max": 5,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "pockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "in-seam"
+        ],
+        "fromPhoto": "yes"
+      }
+    ],
+    "pencil-skirt": [
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "mini",
+          "above-knee",
+          "knee",
+          "midi",
+          "maxi"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "taper",
+        "type": "number",
+        "min": 0,
+        "max": 4,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "vent",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "waistFinish",
+        "type": "enum",
+        "choices": [
+          "waistband",
+          "facing"
+        ],
+        "fromPhoto": "yes"
+      }
+    ],
+    "wrap-skirt": [
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "mini",
+          "above-knee",
+          "knee",
+          "midi",
+          "maxi"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "flare",
+        "type": "number",
+        "min": 2,
+        "max": 20,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "overlap",
+        "type": "number",
+        "min": 50,
+        "max": 100,
+        "fromPhoto": "no"
+      }
+    ],
+    "skirt": [
+      {
+        "key": "shape",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "pencil",
+          "a-line",
+          "trumpet",
+          "half-circle",
+          "circle",
+          "gathered",
+          "tiered",
+          "pleated"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "flare",
+        "type": "number",
+        "min": 0,
+        "max": 30,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "fullness",
+        "type": "number",
+        "min": 1.3,
+        "max": 3.5,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "tiers",
+        "type": "number",
+        "min": 2,
+        "max": 4,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "pleatStyle",
+        "type": "enum",
+        "choices": [
+          "knife",
+          "box",
+          "inverted"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pleatStitch",
+        "type": "enum",
+        "choices": [
+          "hip",
+          "waist"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "gores",
+        "type": "enum",
+        "choices": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "mini",
+          "above-knee",
+          "knee",
+          "midi",
+          "maxi"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "slit",
+        "type": "enum",
+        "choices": [
+          "none",
+          "back-vent",
+          "back",
+          "front",
+          "side"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "slitLength",
+        "type": "number",
+        "min": 5,
+        "max": 50,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "pockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "in-seam",
+          "patch"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "ruffle",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "rise",
+        "type": "enum",
+        "choices": [
+          "low",
+          "mid",
+          "high",
+          "extra-high"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "waistband",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "contoured",
+          "elastic",
+          "drawstring",
+          "facing"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "hipYoke",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "elasticWidth",
+        "type": "number",
+        "min": 1,
+        "max": 5,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "closure",
+        "type": "enum",
+        "choices": [
+          "side-zip",
+          "back-zip",
+          "front-buttons",
+          "wrap",
+          "pull-on"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "buttons",
+        "type": "number",
+        "min": 0,
+        "max": 14,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "beltLoops",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "tieBelt",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      }
+    ],
+    "t-shirt": [
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "neckline",
+        "type": "enum",
+        "choices": [
+          "crew",
+          "scoop",
+          "v-neck",
+          "boat"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "neckDepth",
+        "type": "number",
+        "min": -4,
+        "max": 10,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "sleeves",
+        "type": "enum",
+        "choices": [
+          "sleeveless",
+          "short",
+          "elbow",
+          "three-quarter",
+          "long"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "crop",
+          "waist",
+          "high-hip",
+          "hip",
+          "tunic"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      }
+    ],
+    "woven-top": [
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "neckline",
+        "type": "enum",
+        "choices": [
+          "crew",
+          "scoop",
+          "v-neck",
+          "boat",
+          "square"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "neckDepth",
+        "type": "number",
+        "min": -4,
+        "max": 10,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "sleeves",
+        "type": "enum",
+        "choices": [
+          "sleeveless",
+          "cap",
+          "short",
+          "elbow",
+          "three-quarter",
+          "long"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveShape",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "straight",
+          "puff",
+          "bell"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "closure",
+        "type": "enum",
+        "choices": [
+          "keyhole",
+          "back-zip",
+          "buttons",
+          "none"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "crop",
+          "waist",
+          "high-hip",
+          "hip",
+          "tunic"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "curvedHem",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      }
+    ],
+    "sweatshirt": [
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "neck",
+        "type": "enum",
+        "choices": [
+          "crew",
+          "hood"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocket",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "crop",
+          "waist",
+          "high-hip",
+          "hip",
+          "tunic"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      }
+    ],
+    "top": [
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "layer",
+        "type": "enum",
+        "choices": [
+          "top",
+          "jacket",
+          "coat"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "ease",
+        "type": "number",
+        "min": -6,
+        "max": 30,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "panels",
+        "type": "enum",
+        "choices": [
+          "none",
+          "princess",
+          "side-panels",
+          "jacket"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "darts",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "none",
+          "bust",
+          "bust-waist"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "crop",
+          "waist",
+          "high-hip",
+          "hip",
+          "low-hip",
+          "thigh",
+          "knee",
+          "calf",
+          "ankle"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "flare",
+        "type": "number",
+        "min": 0,
+        "max": 30,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "collar",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "camp",
+          "point",
+          "peter-pan",
+          "hood",
+          "rib",
+          "tie"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarPoints",
+        "type": "enum",
+        "choices": [
+          "classic",
+          "spread",
+          "long",
+          "rounded",
+          "button-down"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarSize",
+        "type": "number",
+        "min": 70,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "neckline",
+        "type": "enum",
+        "choices": [
+          "crew",
+          "high",
+          "scoop",
+          "v-neck",
+          "boat",
+          "square",
+          "sweetheart"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "neckDepth",
+        "type": "number",
+        "min": -4,
+        "max": 20,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "neckWidth",
+        "type": "number",
+        "min": -2,
+        "max": 8,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "opening",
+        "type": "enum",
+        "choices": [
+          "none",
+          "buttons",
+          "snaps",
+          "zip",
+          "half",
+          "wrap",
+          "back-zip",
+          "keyhole"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "placket",
+        "type": "enum",
+        "choices": [
+          "box",
+          "plain",
+          "hidden",
+          "facing"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "buttons",
+        "type": "number",
+        "min": 0,
+        "max": 14,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "buttonSize",
+        "type": "number",
+        "min": 0,
+        "max": 3,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "frontYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "frontYokeDepth",
+        "type": "number",
+        "min": 25,
+        "max": 85,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "yokeDepth",
+        "type": "number",
+        "min": 20,
+        "max": 75,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backPleat",
+        "type": "enum",
+        "choices": [
+          "none",
+          "box",
+          "inverted",
+          "side"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeves",
+        "type": "enum",
+        "choices": [
+          "none",
+          "cap",
+          "short",
+          "elbow",
+          "three-quarter",
+          "long"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveStyle",
+        "type": "enum",
+        "choices": [
+          "set-in",
+          "dropped",
+          "raglan",
+          "kimono"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveShape",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "straight",
+          "puff",
+          "bell",
+          "bishop"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleevePieces",
+        "type": "enum",
+        "choices": [
+          "one",
+          "two"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveAdjust",
+        "type": "number",
+        "min": -15,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "cuff",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "rib",
+          "elastic"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "cuffHeight",
+        "type": "number",
+        "min": 0,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "chestPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "left",
+          "both"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "chestPocketStyle",
+        "type": "enum",
+        "choices": [
+          "patch",
+          "patch-flap",
+          "flap",
+          "welt"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lowerPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "patch",
+          "patch-flap",
+          "welt",
+          "flap",
+          "slant-welt",
+          "kangaroo",
+          "in-seam"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketShape",
+        "type": "enum",
+        "choices": [
+          "square",
+          "rounded",
+          "pointed",
+          "angled"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketSize",
+        "type": "number",
+        "min": 60,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "hem",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "shirttail",
+          "band",
+          "rib",
+          "peplum",
+          "ruffle",
+          "points"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "hemBandHeight",
+        "type": "number",
+        "min": 0,
+        "max": 40,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sideSlits",
+        "type": "number",
+        "min": 0,
+        "max": 25,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "lining",
+        "type": "boolean",
+        "fromPhoto": "no"
+      },
+      {
+        "key": "topstitch",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "contrast",
+          "matching",
+          "none"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tieBelt",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "epaulettes",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveTabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      }
+    ],
+    "button-up-shirt": [
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "layer",
+        "type": "enum",
+        "choices": [
+          "top",
+          "jacket",
+          "coat"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "ease",
+        "type": "number",
+        "min": -6,
+        "max": 30,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "panels",
+        "type": "enum",
+        "choices": [
+          "none",
+          "princess",
+          "side-panels",
+          "jacket"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "darts",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "none",
+          "bust",
+          "bust-waist"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "crop",
+          "waist",
+          "high-hip",
+          "hip",
+          "low-hip",
+          "thigh",
+          "knee",
+          "calf",
+          "ankle"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "flare",
+        "type": "number",
+        "min": 0,
+        "max": 30,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "collar",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "camp",
+          "point",
+          "peter-pan",
+          "hood",
+          "rib",
+          "tie"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarPoints",
+        "type": "enum",
+        "choices": [
+          "classic",
+          "spread",
+          "long",
+          "rounded",
+          "button-down"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarSize",
+        "type": "number",
+        "min": 70,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "neckline",
+        "type": "enum",
+        "choices": [
+          "crew",
+          "high",
+          "scoop",
+          "v-neck",
+          "boat",
+          "square",
+          "sweetheart"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "neckDepth",
+        "type": "number",
+        "min": -4,
+        "max": 20,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "neckWidth",
+        "type": "number",
+        "min": -2,
+        "max": 8,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "opening",
+        "type": "enum",
+        "choices": [
+          "none",
+          "buttons",
+          "snaps",
+          "zip",
+          "half",
+          "wrap",
+          "back-zip",
+          "keyhole"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "placket",
+        "type": "enum",
+        "choices": [
+          "box",
+          "plain",
+          "hidden",
+          "facing"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "buttons",
+        "type": "number",
+        "min": 0,
+        "max": 14,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "buttonSize",
+        "type": "number",
+        "min": 0,
+        "max": 3,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "frontYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "frontYokeDepth",
+        "type": "number",
+        "min": 25,
+        "max": 85,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "yokeDepth",
+        "type": "number",
+        "min": 20,
+        "max": 75,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backPleat",
+        "type": "enum",
+        "choices": [
+          "none",
+          "box",
+          "inverted",
+          "side"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeves",
+        "type": "enum",
+        "choices": [
+          "none",
+          "cap",
+          "short",
+          "elbow",
+          "three-quarter",
+          "long"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveStyle",
+        "type": "enum",
+        "choices": [
+          "set-in",
+          "dropped",
+          "raglan",
+          "kimono"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveShape",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "straight",
+          "puff",
+          "bell",
+          "bishop"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleevePieces",
+        "type": "enum",
+        "choices": [
+          "one",
+          "two"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveAdjust",
+        "type": "number",
+        "min": -15,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "cuff",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "rib",
+          "elastic"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "cuffHeight",
+        "type": "number",
+        "min": 0,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "chestPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "left",
+          "both"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "chestPocketStyle",
+        "type": "enum",
+        "choices": [
+          "patch",
+          "patch-flap",
+          "flap",
+          "welt"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lowerPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "patch",
+          "patch-flap",
+          "welt",
+          "flap",
+          "slant-welt",
+          "kangaroo",
+          "in-seam"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketShape",
+        "type": "enum",
+        "choices": [
+          "square",
+          "rounded",
+          "pointed",
+          "angled"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketSize",
+        "type": "number",
+        "min": 60,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "hem",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "shirttail",
+          "band",
+          "rib",
+          "peplum",
+          "ruffle",
+          "points"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "hemBandHeight",
+        "type": "number",
+        "min": 0,
+        "max": 40,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sideSlits",
+        "type": "number",
+        "min": 0,
+        "max": 25,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "lining",
+        "type": "boolean",
+        "fromPhoto": "no"
+      },
+      {
+        "key": "topstitch",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "contrast",
+          "matching",
+          "none"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tieBelt",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "epaulettes",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveTabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      }
+    ],
+    "camp-shirt": [
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "layer",
+        "type": "enum",
+        "choices": [
+          "top",
+          "jacket",
+          "coat"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "ease",
+        "type": "number",
+        "min": -6,
+        "max": 30,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "panels",
+        "type": "enum",
+        "choices": [
+          "none",
+          "princess",
+          "side-panels",
+          "jacket"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "darts",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "none",
+          "bust",
+          "bust-waist"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "crop",
+          "waist",
+          "high-hip",
+          "hip",
+          "low-hip",
+          "thigh",
+          "knee",
+          "calf",
+          "ankle"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "flare",
+        "type": "number",
+        "min": 0,
+        "max": 30,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "collar",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "camp",
+          "point",
+          "peter-pan",
+          "hood",
+          "rib",
+          "tie"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarPoints",
+        "type": "enum",
+        "choices": [
+          "classic",
+          "spread",
+          "long",
+          "rounded",
+          "button-down"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarSize",
+        "type": "number",
+        "min": 70,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "neckline",
+        "type": "enum",
+        "choices": [
+          "crew",
+          "high",
+          "scoop",
+          "v-neck",
+          "boat",
+          "square",
+          "sweetheart"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "neckDepth",
+        "type": "number",
+        "min": -4,
+        "max": 20,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "neckWidth",
+        "type": "number",
+        "min": -2,
+        "max": 8,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "opening",
+        "type": "enum",
+        "choices": [
+          "none",
+          "buttons",
+          "snaps",
+          "zip",
+          "half",
+          "wrap",
+          "back-zip",
+          "keyhole"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "placket",
+        "type": "enum",
+        "choices": [
+          "box",
+          "plain",
+          "hidden",
+          "facing"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "buttons",
+        "type": "number",
+        "min": 0,
+        "max": 14,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "buttonSize",
+        "type": "number",
+        "min": 0,
+        "max": 3,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "frontYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "frontYokeDepth",
+        "type": "number",
+        "min": 25,
+        "max": 85,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "yokeDepth",
+        "type": "number",
+        "min": 20,
+        "max": 75,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backPleat",
+        "type": "enum",
+        "choices": [
+          "none",
+          "box",
+          "inverted",
+          "side"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeves",
+        "type": "enum",
+        "choices": [
+          "none",
+          "cap",
+          "short",
+          "elbow",
+          "three-quarter",
+          "long"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveStyle",
+        "type": "enum",
+        "choices": [
+          "set-in",
+          "dropped",
+          "raglan",
+          "kimono"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveShape",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "straight",
+          "puff",
+          "bell",
+          "bishop"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleevePieces",
+        "type": "enum",
+        "choices": [
+          "one",
+          "two"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveAdjust",
+        "type": "number",
+        "min": -15,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "cuff",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "rib",
+          "elastic"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "cuffHeight",
+        "type": "number",
+        "min": 0,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "chestPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "left",
+          "both"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "chestPocketStyle",
+        "type": "enum",
+        "choices": [
+          "patch",
+          "patch-flap",
+          "flap",
+          "welt"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lowerPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "patch",
+          "patch-flap",
+          "welt",
+          "flap",
+          "slant-welt",
+          "kangaroo",
+          "in-seam"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketShape",
+        "type": "enum",
+        "choices": [
+          "square",
+          "rounded",
+          "pointed",
+          "angled"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketSize",
+        "type": "number",
+        "min": 60,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "hem",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "shirttail",
+          "band",
+          "rib",
+          "peplum",
+          "ruffle",
+          "points"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "hemBandHeight",
+        "type": "number",
+        "min": 0,
+        "max": 40,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sideSlits",
+        "type": "number",
+        "min": 0,
+        "max": 25,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "lining",
+        "type": "boolean",
+        "fromPhoto": "no"
+      },
+      {
+        "key": "topstitch",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "contrast",
+          "matching",
+          "none"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tieBelt",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "epaulettes",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveTabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      }
+    ],
+    "pull-on-trousers": [
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "leg",
+        "type": "enum",
+        "choices": [
+          "wide",
+          "straight",
+          "tapered",
+          "jogger"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "full",
+          "ankle",
+          "cropped"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "elasticWidth",
+        "type": "number",
+        "min": 1,
+        "max": 5,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "pockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "in-seam",
+          "patch"
+        ],
+        "fromPhoto": "yes"
+      }
+    ],
+    "pull-on-shorts": [
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "short",
+          "mid",
+          "bermuda"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "elasticWidth",
+        "type": "number",
+        "min": 1,
+        "max": 5,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "pockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "in-seam",
+          "patch"
+        ],
+        "fromPhoto": "yes"
+      }
+    ],
+    "trousers": [
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "hipEase",
+        "type": "number",
+        "min": -4,
+        "max": 20,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "stretch",
+        "type": "boolean",
+        "fromPhoto": "no"
+      },
+      {
+        "key": "rise",
+        "type": "enum",
+        "choices": [
+          "low",
+          "mid",
+          "high",
+          "extra-high"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "leg",
+        "type": "enum",
+        "choices": [
+          "skinny",
+          "slim",
+          "straight",
+          "bootcut",
+          "flare",
+          "wide",
+          "tapered",
+          "barrel",
+          "jogger"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "short",
+          "mid",
+          "bermuda",
+          "knee",
+          "capri",
+          "ankle",
+          "full"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "waistband",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "contoured",
+          "elastic",
+          "drawstring",
+          "facing"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "waistbandHeight",
+        "type": "number",
+        "min": 0,
+        "max": 10,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "elasticWidth",
+        "type": "number",
+        "min": 1,
+        "max": 5,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "closure",
+        "type": "enum",
+        "choices": [
+          "fly",
+          "button-fly",
+          "side-zip",
+          "back-zip",
+          "pull-on"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "frontPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "jeans",
+          "slant",
+          "in-seam",
+          "patch"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "coinPocket",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "backPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "patch",
+          "welt",
+          "flap"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sidePockets",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "yoke",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pleats",
+        "type": "enum",
+        "choices": [
+          "none",
+          "single",
+          "double"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "beltLoops",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "legHem",
+        "type": "enum",
+        "choices": [
+          "plain",
+          "turn-up",
+          "rib",
+          "elastic",
+          "split"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "topstitch",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "contrast",
+          "matching",
+          "none"
+        ],
+        "fromPhoto": "no"
+      }
+    ],
+    "jeans": [
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "hipEase",
+        "type": "number",
+        "min": -4,
+        "max": 20,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "stretch",
+        "type": "boolean",
+        "fromPhoto": "no"
+      },
+      {
+        "key": "rise",
+        "type": "enum",
+        "choices": [
+          "low",
+          "mid",
+          "high",
+          "extra-high"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "leg",
+        "type": "enum",
+        "choices": [
+          "skinny",
+          "slim",
+          "straight",
+          "bootcut",
+          "flare",
+          "wide",
+          "tapered",
+          "barrel",
+          "jogger"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "short",
+          "mid",
+          "bermuda",
+          "knee",
+          "capri",
+          "ankle",
+          "full"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "waistband",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "contoured",
+          "elastic",
+          "drawstring",
+          "facing"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "waistbandHeight",
+        "type": "number",
+        "min": 0,
+        "max": 10,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "elasticWidth",
+        "type": "number",
+        "min": 1,
+        "max": 5,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "closure",
+        "type": "enum",
+        "choices": [
+          "fly",
+          "button-fly",
+          "side-zip",
+          "back-zip",
+          "pull-on"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "frontPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "jeans",
+          "slant",
+          "in-seam",
+          "patch"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "coinPocket",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "backPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "patch",
+          "welt",
+          "flap"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sidePockets",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "yoke",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pleats",
+        "type": "enum",
+        "choices": [
+          "none",
+          "single",
+          "double"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "beltLoops",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "legHem",
+        "type": "enum",
+        "choices": [
+          "plain",
+          "turn-up",
+          "rib",
+          "elastic",
+          "split"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "topstitch",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "contrast",
+          "matching",
+          "none"
+        ],
+        "fromPhoto": "no"
+      }
+    ],
+    "chinos": [
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "hipEase",
+        "type": "number",
+        "min": -4,
+        "max": 20,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "stretch",
+        "type": "boolean",
+        "fromPhoto": "no"
+      },
+      {
+        "key": "rise",
+        "type": "enum",
+        "choices": [
+          "low",
+          "mid",
+          "high",
+          "extra-high"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "leg",
+        "type": "enum",
+        "choices": [
+          "skinny",
+          "slim",
+          "straight",
+          "bootcut",
+          "flare",
+          "wide",
+          "tapered",
+          "barrel",
+          "jogger"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "short",
+          "mid",
+          "bermuda",
+          "knee",
+          "capri",
+          "ankle",
+          "full"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "waistband",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "contoured",
+          "elastic",
+          "drawstring",
+          "facing"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "waistbandHeight",
+        "type": "number",
+        "min": 0,
+        "max": 10,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "elasticWidth",
+        "type": "number",
+        "min": 1,
+        "max": 5,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "closure",
+        "type": "enum",
+        "choices": [
+          "fly",
+          "button-fly",
+          "side-zip",
+          "back-zip",
+          "pull-on"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "frontPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "jeans",
+          "slant",
+          "in-seam",
+          "patch"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "coinPocket",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "backPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "patch",
+          "welt",
+          "flap"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sidePockets",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "yoke",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pleats",
+        "type": "enum",
+        "choices": [
+          "none",
+          "single",
+          "double"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "beltLoops",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "legHem",
+        "type": "enum",
+        "choices": [
+          "plain",
+          "turn-up",
+          "rib",
+          "elastic",
+          "split"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "topstitch",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "contrast",
+          "matching",
+          "none"
+        ],
+        "fromPhoto": "no"
+      }
+    ],
+    "kimono-jacket": [
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "hip",
+          "thigh",
+          "knee",
+          "long"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeves",
+        "type": "enum",
+        "choices": [
+          "short",
+          "elbow",
+          "three-quarter",
+          "long"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "bandWidth",
+        "type": "number",
+        "min": 3,
+        "max": 10,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "belt",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pockets",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      }
+    ],
+    "tote-bag": [
+      {
+        "key": "width",
+        "type": "number",
+        "min": 20,
+        "max": 60,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "height",
+        "type": "number",
+        "min": 20,
+        "max": 55,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "depth",
+        "type": "number",
+        "min": 0,
+        "max": 20,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "handle",
+        "type": "number",
+        "min": 25,
+        "max": 120,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "lining",
+        "type": "boolean",
+        "fromPhoto": "no"
+      },
+      {
+        "key": "pocket",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "snap",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      }
+    ],
+    "drawstring-bag": [
+      {
+        "key": "width",
+        "type": "number",
+        "min": 15,
+        "max": 50,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "height",
+        "type": "number",
+        "min": 15,
+        "max": 60,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "depth",
+        "type": "number",
+        "min": 0,
+        "max": 12,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "cords",
+        "type": "enum",
+        "choices": [
+          "one",
+          "two"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lining",
+        "type": "boolean",
+        "fromPhoto": "no"
+      }
+    ],
+    "zip-pouch": [
+      {
+        "key": "width",
+        "type": "number",
+        "min": 12,
+        "max": 40,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "height",
+        "type": "number",
+        "min": 8,
+        "max": 30,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "depth",
+        "type": "number",
+        "min": 0,
+        "max": 12,
+        "fromPhoto": "no"
+      }
+    ],
+    "bucket-hat": [
+      {
+        "key": "brim",
+        "type": "number",
+        "min": 4,
+        "max": 10,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "sideHeight",
+        "type": "number",
+        "min": 5,
+        "max": 11,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "droop",
+        "type": "number",
+        "min": 10,
+        "max": 60,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "reversible",
+        "type": "boolean",
+        "fromPhoto": "no"
+      }
+    ],
+    "scrunchie": [
+      {
+        "key": "size",
+        "type": "enum",
+        "choices": [
+          "skinny",
+          "classic",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      }
+    ],
+    "headband": [
+      {
+        "key": "style",
+        "type": "enum",
+        "choices": [
+          "elastic",
+          "knotted"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "width",
+        "type": "number",
+        "min": 4,
+        "max": 12,
+        "fromPhoto": "no"
+      }
+    ],
+    "pillow-cover": [
+      {
+        "key": "width",
+        "type": "number",
+        "min": 20,
+        "max": 80,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "height",
+        "type": "number",
+        "min": 20,
+        "max": 80,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "closure",
+        "type": "enum",
+        "choices": [
+          "envelope",
+          "zip"
+        ],
+        "fromPhoto": "yes"
+      }
+    ],
+    "apron": [
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "half",
+          "thigh",
+          "knee"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocket",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      }
+    ],
+    "trucker-jacket": [
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "layer",
+        "type": "enum",
+        "choices": [
+          "top",
+          "jacket",
+          "coat"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "ease",
+        "type": "number",
+        "min": -6,
+        "max": 30,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "panels",
+        "type": "enum",
+        "choices": [
+          "none",
+          "princess",
+          "side-panels",
+          "jacket"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "darts",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "none",
+          "bust",
+          "bust-waist"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "crop",
+          "waist",
+          "high-hip",
+          "hip",
+          "low-hip",
+          "thigh",
+          "knee",
+          "calf",
+          "ankle"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "flare",
+        "type": "number",
+        "min": 0,
+        "max": 30,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "collar",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "camp",
+          "point",
+          "peter-pan",
+          "hood",
+          "rib",
+          "tie"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarPoints",
+        "type": "enum",
+        "choices": [
+          "classic",
+          "spread",
+          "long",
+          "rounded",
+          "button-down"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarSize",
+        "type": "number",
+        "min": 70,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "neckline",
+        "type": "enum",
+        "choices": [
+          "crew",
+          "high",
+          "scoop",
+          "v-neck",
+          "boat",
+          "square",
+          "sweetheart"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "neckDepth",
+        "type": "number",
+        "min": -4,
+        "max": 20,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "neckWidth",
+        "type": "number",
+        "min": -2,
+        "max": 8,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "opening",
+        "type": "enum",
+        "choices": [
+          "none",
+          "buttons",
+          "snaps",
+          "zip",
+          "half",
+          "wrap",
+          "back-zip",
+          "keyhole"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "placket",
+        "type": "enum",
+        "choices": [
+          "box",
+          "plain",
+          "hidden",
+          "facing"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "buttons",
+        "type": "number",
+        "min": 0,
+        "max": 14,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "buttonSize",
+        "type": "number",
+        "min": 0,
+        "max": 3,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "frontYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "frontYokeDepth",
+        "type": "number",
+        "min": 25,
+        "max": 85,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "yokeDepth",
+        "type": "number",
+        "min": 20,
+        "max": 75,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backPleat",
+        "type": "enum",
+        "choices": [
+          "none",
+          "box",
+          "inverted",
+          "side"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeves",
+        "type": "enum",
+        "choices": [
+          "none",
+          "cap",
+          "short",
+          "elbow",
+          "three-quarter",
+          "long"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveStyle",
+        "type": "enum",
+        "choices": [
+          "set-in",
+          "dropped",
+          "raglan",
+          "kimono"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveShape",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "straight",
+          "puff",
+          "bell",
+          "bishop"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleevePieces",
+        "type": "enum",
+        "choices": [
+          "one",
+          "two"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveAdjust",
+        "type": "number",
+        "min": -15,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "cuff",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "rib",
+          "elastic"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "cuffHeight",
+        "type": "number",
+        "min": 0,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "chestPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "left",
+          "both"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "chestPocketStyle",
+        "type": "enum",
+        "choices": [
+          "patch",
+          "patch-flap",
+          "flap",
+          "welt"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lowerPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "patch",
+          "patch-flap",
+          "welt",
+          "flap",
+          "slant-welt",
+          "kangaroo",
+          "in-seam"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketShape",
+        "type": "enum",
+        "choices": [
+          "square",
+          "rounded",
+          "pointed",
+          "angled"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketSize",
+        "type": "number",
+        "min": 60,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "hem",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "shirttail",
+          "band",
+          "rib",
+          "peplum",
+          "ruffle",
+          "points"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "hemBandHeight",
+        "type": "number",
+        "min": 0,
+        "max": 40,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sideSlits",
+        "type": "number",
+        "min": 0,
+        "max": 25,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "lining",
+        "type": "boolean",
+        "fromPhoto": "no"
+      },
+      {
+        "key": "topstitch",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "contrast",
+          "matching",
+          "none"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tieBelt",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "epaulettes",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveTabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      }
+    ],
+    "trucker-vest": [
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "layer",
+        "type": "enum",
+        "choices": [
+          "top",
+          "jacket",
+          "coat"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "ease",
+        "type": "number",
+        "min": -6,
+        "max": 30,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "panels",
+        "type": "enum",
+        "choices": [
+          "none",
+          "princess",
+          "side-panels",
+          "jacket"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "darts",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "none",
+          "bust",
+          "bust-waist"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "crop",
+          "waist",
+          "high-hip",
+          "hip",
+          "low-hip",
+          "thigh",
+          "knee",
+          "calf",
+          "ankle"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "flare",
+        "type": "number",
+        "min": 0,
+        "max": 30,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "collar",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "camp",
+          "point",
+          "peter-pan",
+          "hood",
+          "rib",
+          "tie"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarPoints",
+        "type": "enum",
+        "choices": [
+          "classic",
+          "spread",
+          "long",
+          "rounded",
+          "button-down"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarSize",
+        "type": "number",
+        "min": 70,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "neckline",
+        "type": "enum",
+        "choices": [
+          "crew",
+          "high",
+          "scoop",
+          "v-neck",
+          "boat",
+          "square",
+          "sweetheart"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "neckDepth",
+        "type": "number",
+        "min": -4,
+        "max": 20,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "neckWidth",
+        "type": "number",
+        "min": -2,
+        "max": 8,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "opening",
+        "type": "enum",
+        "choices": [
+          "none",
+          "buttons",
+          "snaps",
+          "zip",
+          "half",
+          "wrap",
+          "back-zip",
+          "keyhole"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "placket",
+        "type": "enum",
+        "choices": [
+          "box",
+          "plain",
+          "hidden",
+          "facing"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "buttons",
+        "type": "number",
+        "min": 0,
+        "max": 14,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "buttonSize",
+        "type": "number",
+        "min": 0,
+        "max": 3,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "frontYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "frontYokeDepth",
+        "type": "number",
+        "min": 25,
+        "max": 85,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "yokeDepth",
+        "type": "number",
+        "min": 20,
+        "max": 75,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backPleat",
+        "type": "enum",
+        "choices": [
+          "none",
+          "box",
+          "inverted",
+          "side"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeves",
+        "type": "enum",
+        "choices": [
+          "none",
+          "cap",
+          "short",
+          "elbow",
+          "three-quarter",
+          "long"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveStyle",
+        "type": "enum",
+        "choices": [
+          "set-in",
+          "dropped",
+          "raglan",
+          "kimono"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveShape",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "straight",
+          "puff",
+          "bell",
+          "bishop"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleevePieces",
+        "type": "enum",
+        "choices": [
+          "one",
+          "two"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveAdjust",
+        "type": "number",
+        "min": -15,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "cuff",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "rib",
+          "elastic"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "cuffHeight",
+        "type": "number",
+        "min": 0,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "chestPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "left",
+          "both"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "chestPocketStyle",
+        "type": "enum",
+        "choices": [
+          "patch",
+          "patch-flap",
+          "flap",
+          "welt"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lowerPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "patch",
+          "patch-flap",
+          "welt",
+          "flap",
+          "slant-welt",
+          "kangaroo",
+          "in-seam"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketShape",
+        "type": "enum",
+        "choices": [
+          "square",
+          "rounded",
+          "pointed",
+          "angled"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketSize",
+        "type": "number",
+        "min": 60,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "hem",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "shirttail",
+          "band",
+          "rib",
+          "peplum",
+          "ruffle",
+          "points"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "hemBandHeight",
+        "type": "number",
+        "min": 0,
+        "max": 40,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sideSlits",
+        "type": "number",
+        "min": 0,
+        "max": 25,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "lining",
+        "type": "boolean",
+        "fromPhoto": "no"
+      },
+      {
+        "key": "topstitch",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "contrast",
+          "matching",
+          "none"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tieBelt",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "epaulettes",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveTabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      }
+    ],
+    "chore-jacket": [
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "layer",
+        "type": "enum",
+        "choices": [
+          "top",
+          "jacket",
+          "coat"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "ease",
+        "type": "number",
+        "min": -6,
+        "max": 30,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "panels",
+        "type": "enum",
+        "choices": [
+          "none",
+          "princess",
+          "side-panels",
+          "jacket"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "darts",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "none",
+          "bust",
+          "bust-waist"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "crop",
+          "waist",
+          "high-hip",
+          "hip",
+          "low-hip",
+          "thigh",
+          "knee",
+          "calf",
+          "ankle"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "flare",
+        "type": "number",
+        "min": 0,
+        "max": 30,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "collar",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "camp",
+          "point",
+          "peter-pan",
+          "hood",
+          "rib",
+          "tie"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarPoints",
+        "type": "enum",
+        "choices": [
+          "classic",
+          "spread",
+          "long",
+          "rounded",
+          "button-down"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarSize",
+        "type": "number",
+        "min": 70,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "neckline",
+        "type": "enum",
+        "choices": [
+          "crew",
+          "high",
+          "scoop",
+          "v-neck",
+          "boat",
+          "square",
+          "sweetheart"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "neckDepth",
+        "type": "number",
+        "min": -4,
+        "max": 20,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "neckWidth",
+        "type": "number",
+        "min": -2,
+        "max": 8,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "opening",
+        "type": "enum",
+        "choices": [
+          "none",
+          "buttons",
+          "snaps",
+          "zip",
+          "half",
+          "wrap",
+          "back-zip",
+          "keyhole"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "placket",
+        "type": "enum",
+        "choices": [
+          "box",
+          "plain",
+          "hidden",
+          "facing"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "buttons",
+        "type": "number",
+        "min": 0,
+        "max": 14,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "buttonSize",
+        "type": "number",
+        "min": 0,
+        "max": 3,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "frontYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "frontYokeDepth",
+        "type": "number",
+        "min": 25,
+        "max": 85,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "yokeDepth",
+        "type": "number",
+        "min": 20,
+        "max": 75,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backPleat",
+        "type": "enum",
+        "choices": [
+          "none",
+          "box",
+          "inverted",
+          "side"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeves",
+        "type": "enum",
+        "choices": [
+          "none",
+          "cap",
+          "short",
+          "elbow",
+          "three-quarter",
+          "long"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveStyle",
+        "type": "enum",
+        "choices": [
+          "set-in",
+          "dropped",
+          "raglan",
+          "kimono"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveShape",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "straight",
+          "puff",
+          "bell",
+          "bishop"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleevePieces",
+        "type": "enum",
+        "choices": [
+          "one",
+          "two"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveAdjust",
+        "type": "number",
+        "min": -15,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "cuff",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "rib",
+          "elastic"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "cuffHeight",
+        "type": "number",
+        "min": 0,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "chestPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "left",
+          "both"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "chestPocketStyle",
+        "type": "enum",
+        "choices": [
+          "patch",
+          "patch-flap",
+          "flap",
+          "welt"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lowerPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "patch",
+          "patch-flap",
+          "welt",
+          "flap",
+          "slant-welt",
+          "kangaroo",
+          "in-seam"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketShape",
+        "type": "enum",
+        "choices": [
+          "square",
+          "rounded",
+          "pointed",
+          "angled"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketSize",
+        "type": "number",
+        "min": 60,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "hem",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "shirttail",
+          "band",
+          "rib",
+          "peplum",
+          "ruffle",
+          "points"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "hemBandHeight",
+        "type": "number",
+        "min": 0,
+        "max": 40,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sideSlits",
+        "type": "number",
+        "min": 0,
+        "max": 25,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "lining",
+        "type": "boolean",
+        "fromPhoto": "no"
+      },
+      {
+        "key": "topstitch",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "contrast",
+          "matching",
+          "none"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tieBelt",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "epaulettes",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveTabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      }
+    ],
+    "bomber-jacket": [
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "layer",
+        "type": "enum",
+        "choices": [
+          "top",
+          "jacket",
+          "coat"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "ease",
+        "type": "number",
+        "min": -6,
+        "max": 30,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "panels",
+        "type": "enum",
+        "choices": [
+          "none",
+          "princess",
+          "side-panels",
+          "jacket"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "darts",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "none",
+          "bust",
+          "bust-waist"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "crop",
+          "waist",
+          "high-hip",
+          "hip",
+          "low-hip",
+          "thigh",
+          "knee",
+          "calf",
+          "ankle"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "flare",
+        "type": "number",
+        "min": 0,
+        "max": 30,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "collar",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "camp",
+          "point",
+          "peter-pan",
+          "hood",
+          "rib",
+          "tie"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarPoints",
+        "type": "enum",
+        "choices": [
+          "classic",
+          "spread",
+          "long",
+          "rounded",
+          "button-down"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarSize",
+        "type": "number",
+        "min": 70,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "neckline",
+        "type": "enum",
+        "choices": [
+          "crew",
+          "high",
+          "scoop",
+          "v-neck",
+          "boat",
+          "square",
+          "sweetheart"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "neckDepth",
+        "type": "number",
+        "min": -4,
+        "max": 20,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "neckWidth",
+        "type": "number",
+        "min": -2,
+        "max": 8,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "opening",
+        "type": "enum",
+        "choices": [
+          "none",
+          "buttons",
+          "snaps",
+          "zip",
+          "half",
+          "wrap",
+          "back-zip",
+          "keyhole"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "placket",
+        "type": "enum",
+        "choices": [
+          "box",
+          "plain",
+          "hidden",
+          "facing"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "buttons",
+        "type": "number",
+        "min": 0,
+        "max": 14,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "buttonSize",
+        "type": "number",
+        "min": 0,
+        "max": 3,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "frontYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "frontYokeDepth",
+        "type": "number",
+        "min": 25,
+        "max": 85,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "yokeDepth",
+        "type": "number",
+        "min": 20,
+        "max": 75,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backPleat",
+        "type": "enum",
+        "choices": [
+          "none",
+          "box",
+          "inverted",
+          "side"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeves",
+        "type": "enum",
+        "choices": [
+          "none",
+          "cap",
+          "short",
+          "elbow",
+          "three-quarter",
+          "long"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveStyle",
+        "type": "enum",
+        "choices": [
+          "set-in",
+          "dropped",
+          "raglan",
+          "kimono"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveShape",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "straight",
+          "puff",
+          "bell",
+          "bishop"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleevePieces",
+        "type": "enum",
+        "choices": [
+          "one",
+          "two"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveAdjust",
+        "type": "number",
+        "min": -15,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "cuff",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "rib",
+          "elastic"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "cuffHeight",
+        "type": "number",
+        "min": 0,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "chestPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "left",
+          "both"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "chestPocketStyle",
+        "type": "enum",
+        "choices": [
+          "patch",
+          "patch-flap",
+          "flap",
+          "welt"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lowerPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "patch",
+          "patch-flap",
+          "welt",
+          "flap",
+          "slant-welt",
+          "kangaroo",
+          "in-seam"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketShape",
+        "type": "enum",
+        "choices": [
+          "square",
+          "rounded",
+          "pointed",
+          "angled"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketSize",
+        "type": "number",
+        "min": 60,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "hem",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "shirttail",
+          "band",
+          "rib",
+          "peplum",
+          "ruffle",
+          "points"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "hemBandHeight",
+        "type": "number",
+        "min": 0,
+        "max": 40,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sideSlits",
+        "type": "number",
+        "min": 0,
+        "max": 25,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "lining",
+        "type": "boolean",
+        "fromPhoto": "no"
+      },
+      {
+        "key": "topstitch",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "contrast",
+          "matching",
+          "none"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tieBelt",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "epaulettes",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveTabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      }
+    ],
+    "waistcoat": [
+      {
+        "key": "fit",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "regular",
+          "relaxed",
+          "oversized"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "layer",
+        "type": "enum",
+        "choices": [
+          "top",
+          "jacket",
+          "coat"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "ease",
+        "type": "number",
+        "min": -6,
+        "max": 30,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "panels",
+        "type": "enum",
+        "choices": [
+          "none",
+          "princess",
+          "side-panels",
+          "jacket"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "darts",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "none",
+          "bust",
+          "bust-waist"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "length",
+        "type": "enum",
+        "choices": [
+          "crop",
+          "waist",
+          "high-hip",
+          "hip",
+          "low-hip",
+          "thigh",
+          "knee",
+          "calf",
+          "ankle"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lengthAdjust",
+        "type": "number",
+        "min": -25,
+        "max": 25,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "flare",
+        "type": "number",
+        "min": 0,
+        "max": 30,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "collar",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "camp",
+          "point",
+          "peter-pan",
+          "hood",
+          "rib",
+          "tie"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarPoints",
+        "type": "enum",
+        "choices": [
+          "classic",
+          "spread",
+          "long",
+          "rounded",
+          "button-down"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "collarSize",
+        "type": "number",
+        "min": 70,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "neckline",
+        "type": "enum",
+        "choices": [
+          "crew",
+          "high",
+          "scoop",
+          "v-neck",
+          "boat",
+          "square",
+          "sweetheart"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "neckDepth",
+        "type": "number",
+        "min": -4,
+        "max": 20,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "neckWidth",
+        "type": "number",
+        "min": -2,
+        "max": 8,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "opening",
+        "type": "enum",
+        "choices": [
+          "none",
+          "buttons",
+          "snaps",
+          "zip",
+          "half",
+          "wrap",
+          "back-zip",
+          "keyhole"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "placket",
+        "type": "enum",
+        "choices": [
+          "box",
+          "plain",
+          "hidden",
+          "facing"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "buttons",
+        "type": "number",
+        "min": 0,
+        "max": 14,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "buttonSize",
+        "type": "number",
+        "min": 0,
+        "max": 3,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "frontYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "frontYokeDepth",
+        "type": "number",
+        "min": 25,
+        "max": 85,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backYoke",
+        "type": "enum",
+        "choices": [
+          "none",
+          "straight",
+          "curved",
+          "pointed"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "yokeDepth",
+        "type": "number",
+        "min": 20,
+        "max": 75,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "backPleat",
+        "type": "enum",
+        "choices": [
+          "none",
+          "box",
+          "inverted",
+          "side"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeves",
+        "type": "enum",
+        "choices": [
+          "none",
+          "cap",
+          "short",
+          "elbow",
+          "three-quarter",
+          "long"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveStyle",
+        "type": "enum",
+        "choices": [
+          "set-in",
+          "dropped",
+          "raglan",
+          "kimono"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveShape",
+        "type": "enum",
+        "choices": [
+          "fitted",
+          "straight",
+          "puff",
+          "bell",
+          "bishop"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleevePieces",
+        "type": "enum",
+        "choices": [
+          "one",
+          "two"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveAdjust",
+        "type": "number",
+        "min": -15,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "cuff",
+        "type": "enum",
+        "choices": [
+          "none",
+          "shirt",
+          "band",
+          "rib",
+          "elastic"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "cuffHeight",
+        "type": "number",
+        "min": 0,
+        "max": 15,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "chestPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "left",
+          "both"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "chestPocketStyle",
+        "type": "enum",
+        "choices": [
+          "patch",
+          "patch-flap",
+          "flap",
+          "welt"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "lowerPockets",
+        "type": "enum",
+        "choices": [
+          "none",
+          "patch",
+          "patch-flap",
+          "welt",
+          "flap",
+          "slant-welt",
+          "kangaroo",
+          "in-seam"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketShape",
+        "type": "enum",
+        "choices": [
+          "square",
+          "rounded",
+          "pointed",
+          "angled"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "pocketSize",
+        "type": "number",
+        "min": 60,
+        "max": 150,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "hem",
+        "type": "enum",
+        "choices": [
+          "straight",
+          "shirttail",
+          "band",
+          "rib",
+          "peplum",
+          "ruffle",
+          "points"
+        ],
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "hemBandHeight",
+        "type": "number",
+        "min": 0,
+        "max": 40,
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sideSlits",
+        "type": "number",
+        "min": 0,
+        "max": 25,
+        "fromPhoto": "semi"
+      },
+      {
+        "key": "lining",
+        "type": "boolean",
+        "fromPhoto": "no"
+      },
+      {
+        "key": "topstitch",
+        "type": "enum",
+        "choices": [
+          "auto",
+          "contrast",
+          "matching",
+          "none"
+        ],
+        "fromPhoto": "no"
+      },
+      {
+        "key": "tieBelt",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "epaulettes",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      },
+      {
+        "key": "sleeveTabs",
+        "type": "boolean",
+        "fromPhoto": "yes"
+      }
+    ]
+  }
+}
